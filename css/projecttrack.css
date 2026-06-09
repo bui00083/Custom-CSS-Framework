@@ -1,3 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;1,300&display=swap");
+.bg-primary {
+  background-color: #1FBDAC;
+}
 
+.btn-primary {
+  background-color: #1FBDAC;
+  color: #FFFFFF;
+}
+
+.bg-secondary {
+  background-color: #42B4E0;
+}
+
+.btn-secondary {
+  background-color: #42B4E0;
+  color: #FFFFFF;
+}
+
+.bg-table {
+  background-color: #F3F3F3;
+}
+
+.btn-table {
+  background-color: #F3F3F3;
+  color: #FFFFFF;
+}
+
+.bg-unsolved {
+  background-color: #FC4954;
+}
+
+.btn-unsolved {
+  background-color: #FC4954;
+  color: #FFFFFF;
+}
+
+.bg-solved {
+  background-color: #62E27B;
+}
+
+.btn-solved {
+  background-color: #62E27B;
+  color: #FFFFFF;
+}
+
+.bg-progress {
+  background-color: #FFC000;
+}
+
+.btn-progress {
+  background-color: #FFC000;
+  color: #FFFFFF;
+}
+
+.bg-dark {
+  background-color: #FFFFFF;
+}
+
+.btn-dark {
+  background-color: #FFFFFF;
+  color: #FFFFFF;
+}
+
+.bg-light {
+  background-color: #000000;
+}
+
+.btn-light {
+  background-color: #000000;
+  color: #FFFFFF;
+}
 
 /*# sourceMappingURL=projecttrack.css.map */
