@@ -1,0 +1,14 @@
+{
+    "name": "projecttrack",
+    "version": "1.0.0",
+    "main": "index.js",
+    
+    "scripts": {
+        "dev": "sass --watch src/projecttrack.scss css/projecttrack.css"
+    },
+    
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": ""
+}
