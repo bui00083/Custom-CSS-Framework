@@ -1,0 +1,21 @@
+@use 'sass:map';
+
+$fonts: (
+    'body': 'Nunito',
+);
+
+$font-size: (
+    'xs': 8px,
+    'sm': 12px,
+    'md': 24px,
+    'lg': 36px,
+    'xl': 48px,
+    '2xl': 80px
+);
+
+$font-weight: (
+    'reg': 400,
+    'med': 500,
+    'semi-bold': 600,
+    'bold': 700
+);
