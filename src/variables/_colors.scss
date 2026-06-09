@@ -8,6 +8,7 @@ $yellow: '#FFC000';
 $white: '#FFFFFF';
 $black: '#000000';
 $gray: '#F3F3F3';
+$dark-gray: '#A6A6A6';
 
 //Color theme
 
@@ -19,7 +20,8 @@ $colors: (
     'solved': $green,
     'progress': $yellow,
     'dark': $white,
-    'light': $black
+    'light': $black,
+    'text': $dark-gray
 );
 
 @each $name, $color in $colors{
@@ -31,4 +33,10 @@ $colors: (
         background-color: #{$color};
         color: #{$white};
     }
+
+    .text-#{$name} {
+        color: $color;
+    }
+
 }
+
