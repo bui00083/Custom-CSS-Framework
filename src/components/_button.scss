@@ -6,7 +6,7 @@
   border-radius: 8px;
   padding: 10px 18px;
   font-weight: map.get(variables.$font-weight, 'reg');
-  font-size: map.get(variables.$font-size, 'md');
+  font-size: map.get(variables.$font-size, 'sm');
   color: variables.$white;
   text-align: center;
   cursor: pointer;
@@ -32,11 +32,10 @@
 // Submit Button
 .submit-btn {
   background-color: #F3F3F3;
-  color: #000000;
+  color: variables.$dark-gray;
 
   padding: 8px 16px;
-
-  border: 1px solid #000000;
+  border: 1px solid variables.$dark-gray;
   border-radius: 8px;
 
   font-size: map.get(variables.$font-size, 'sm');
@@ -45,6 +44,6 @@
 }
 
 .submit-btn:hover {
-  background-color: #a0a0a0;
+  background-color: #e5e5e5;
   color: #000000;
 }

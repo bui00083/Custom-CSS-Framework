@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;1,300&display=swap");
 .bg-primary {
   background-color: #1FBDAC;
 }
@@ -5,6 +6,10 @@
 .btn-primary {
   background-color: #1FBDAC;
   color: #FFFFFF;
+}
+
+.text-primary {
+  color: "#1FBDAC";
 }
 
 .bg-secondary {
@@ -16,6 +21,10 @@
   color: #FFFFFF;
 }
 
+.text-secondary {
+  color: "#42B4E0";
+}
+
 .bg-table {
   background-color: #F3F3F3;
 }
@@ -23,6 +32,10 @@
 .btn-table {
   background-color: #F3F3F3;
   color: #FFFFFF;
+}
+
+.text-table {
+  color: "#F3F3F3";
 }
 
 .bg-unsolved {
@@ -34,6 +47,10 @@
   color: #FFFFFF;
 }
 
+.text-unsolved {
+  color: "#FC4954";
+}
+
 .bg-solved {
   background-color: #62E27B;
 }
@@ -41,6 +58,10 @@
 .btn-solved {
   background-color: #62E27B;
   color: #FFFFFF;
+}
+
+.text-solved {
+  color: "#62E27B";
 }
 
 .bg-progress {
@@ -52,6 +73,10 @@
   color: #FFFFFF;
 }
 
+.text-progress {
+  color: "#FFC000";
+}
+
 .bg-dark {
   background-color: #FFFFFF;
 }
@@ -59,6 +84,10 @@
 .btn-dark {
   background-color: #FFFFFF;
   color: #FFFFFF;
+}
+
+.text-dark {
+  color: "#FFFFFF";
 }
 
 .bg-light {
@@ -70,6 +99,10 @@
   color: #FFFFFF;
 }
 
+.text-light {
+  color: "#000000";
+}
+
 .bg-submit {
   background-color: #F3F3F3;
 }
@@ -79,60 +112,82 @@
   color: #FFFFFF;
 }
 
+.text-submit {
+  color: "#F3F3F3";
+}
+
+.bg-text {
+  background-color: #A6A6A6;
+}
+
+.btn-text {
+  background-color: #A6A6A6;
+  color: #FFFFFF;
+}
+
+.text-text {
+  color: "#A6A6A6";
+}
+
 .btn {
   border: none;
   border-radius: 8px;
   padding: 10px 18px;
   font-weight: 400;
-  font-size: 24px;
-  color: #FFFFFF;
+  font-size: 14px;
+  color: "#FFFFFF";
   text-align: center;
   cursor: pointer;
 }
 
 .btn-primary {
-  background-color: #1FBDAC;
-  color: #FFFFFF;
+  background-color: "#1FBDAC";
+  color: "#FFFFFF";
 }
 
 .btn-secondary {
-  background-color: #42B4E0;
-  color: #FFFFFF;
+  background-color: "#42B4E0";
+  color: "#FFFFFF";
 }
 
 .btn-table {
-  background-color: #F3F3F3;
-  color: #FFFFFF;
+  background-color: "#F3F3F3";
+  color: "#FFFFFF";
 }
 
 .btn-unsolved {
-  background-color: #FC4954;
-  color: #FFFFFF;
+  background-color: "#FC4954";
+  color: "#FFFFFF";
 }
 
 .btn-solved {
-  background-color: #62E27B;
-  color: #FFFFFF;
+  background-color: "#62E27B";
+  color: "#FFFFFF";
 }
 
 .btn-progress {
-  background-color: #FFC000;
-  color: #FFFFFF;
+  background-color: "#FFC000";
+  color: "#FFFFFF";
 }
 
 .btn-dark {
-  background-color: #FFFFFF;
-  color: #FFFFFF;
+  background-color: "#FFFFFF";
+  color: "#FFFFFF";
 }
 
 .btn-light {
-  background-color: #000000;
-  color: #FFFFFF;
+  background-color: "#000000";
+  color: "#FFFFFF";
 }
 
 .btn-submit {
-  background-color: #F3F3F3;
-  color: #FFFFFF;
+  background-color: "#F3F3F3";
+  color: "#FFFFFF";
+}
+
+.btn-text {
+  background-color: "#A6A6A6";
+  color: "#FFFFFF";
 }
 
 .btn:hover {
@@ -141,16 +196,16 @@
 
 .submit-btn {
   background-color: #F3F3F3;
-  color: #000000;
+  color: "#A6A6A6";
   padding: 8px 16px;
-  border: 1px solid #000000;
+  border: 1px solid "#A6A6A6";
   border-radius: 8px;
-  font-size: 12px;
+  font-size: 14px;
   transition: all 0.2s ease;
 }
 
 .submit-btn:hover {
-  background-color: #a0a0a0;
+  background-color: #e5e5e5;
   color: #000000;
 }
 
