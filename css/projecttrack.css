@@ -1,3 +1,157 @@
+.bg-primary {
+  background-color: #1FBDAC;
+}
 
+.btn-primary {
+  background-color: #1FBDAC;
+  color: #FFFFFF;
+}
+
+.bg-secondary {
+  background-color: #42B4E0;
+}
+
+.btn-secondary {
+  background-color: #42B4E0;
+  color: #FFFFFF;
+}
+
+.bg-table {
+  background-color: #F3F3F3;
+}
+
+.btn-table {
+  background-color: #F3F3F3;
+  color: #FFFFFF;
+}
+
+.bg-unsolved {
+  background-color: #FC4954;
+}
+
+.btn-unsolved {
+  background-color: #FC4954;
+  color: #FFFFFF;
+}
+
+.bg-solved {
+  background-color: #62E27B;
+}
+
+.btn-solved {
+  background-color: #62E27B;
+  color: #FFFFFF;
+}
+
+.bg-progress {
+  background-color: #FFC000;
+}
+
+.btn-progress {
+  background-color: #FFC000;
+  color: #FFFFFF;
+}
+
+.bg-dark {
+  background-color: #FFFFFF;
+}
+
+.btn-dark {
+  background-color: #FFFFFF;
+  color: #FFFFFF;
+}
+
+.bg-light {
+  background-color: #000000;
+}
+
+.btn-light {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.bg-submit {
+  background-color: #F3F3F3;
+}
+
+.btn-submit {
+  background-color: #F3F3F3;
+  color: #FFFFFF;
+}
+
+.btn {
+  border: none;
+  border-radius: 8px;
+  padding: 10px 18px;
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFFFFF;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #1FBDAC;
+  color: #FFFFFF;
+}
+
+.btn-secondary {
+  background-color: #42B4E0;
+  color: #FFFFFF;
+}
+
+.btn-table {
+  background-color: #F3F3F3;
+  color: #FFFFFF;
+}
+
+.btn-unsolved {
+  background-color: #FC4954;
+  color: #FFFFFF;
+}
+
+.btn-solved {
+  background-color: #62E27B;
+  color: #FFFFFF;
+}
+
+.btn-progress {
+  background-color: #FFC000;
+  color: #FFFFFF;
+}
+
+.btn-dark {
+  background-color: #FFFFFF;
+  color: #FFFFFF;
+}
+
+.btn-light {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.btn-submit {
+  background-color: #F3F3F3;
+  color: #FFFFFF;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
+
+.submit-btn {
+  background-color: #F3F3F3;
+  color: #000000;
+  padding: 8px 16px;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  font-size: 12px;
+  transition: all 0.2s ease;
+}
+
+.submit-btn:hover {
+  background-color: #a0a0a0;
+  color: #000000;
+}
 
 /*# sourceMappingURL=projecttrack.css.map */

@@ -1,13 +1,13 @@
 @use 'sass:map';
 
-$teal: '#1FBDAC';
-$cyan: '#42B4E0';
-$green: '#62E27B';
-$red: '#FC4954';
-$yellow: '#FFC000';
-$white: '#FFFFFF';
-$black: '#000000';
-$gray: '#F3F3F3';
+$teal: #1FBDAC;
+$cyan: #42B4E0;
+$green: #62E27B;
+$red: #FC4954;
+$yellow: #FFC000;
+$white: #FFFFFF;
+$black: #000000;
+$gray: #F3F3F3;
 
 //Color theme
 
@@ -19,7 +19,8 @@ $colors: (
     'solved': $green,
     'progress': $yellow,
     'dark': $white,
-    'light': $black
+    'light': $black,
+    'submit': $gray,
 );
 
 @each $name, $color in $colors{
