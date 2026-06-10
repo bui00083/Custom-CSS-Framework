@@ -1,0 +1,20 @@
+@use 'sass:map';
+@use '../variables/' as variables;
+
+.project-info {
+  border: 2px solid variables.$dark-gray;
+  border-radius: 8px;
+
+  padding: 20px;
+  margin: 12px 0 24px;
+
+  max-width: 450px;
+}
+
+.project-info p {
+  margin: 0 0 12px;
+}
+
+.project-info p:last-child {
+  margin-bottom: 0;
+}
