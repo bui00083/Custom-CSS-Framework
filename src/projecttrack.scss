@@ -1,1 +1,6 @@
 @use './components';
+@use './base' as base;
+@use './fonts' as fonts;
+@use './variables/' as variables;
+@use './components/' as components;
+@use './utilities/' as utilities;
