@@ -1,0 +1,38 @@
+@use '../variables/' as variables;
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: variables.$gray;
+  color: variables.$black;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+.section {
+  margin-bottom: 32px;
+}
+
+.page-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.project-list {
+  padding-left: 24px;
+  list-style: disc;
+}
+
+.project-list li {
+  margin-bottom: 8px;
+}

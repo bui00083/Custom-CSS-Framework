@@ -1,134 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;1,300&display=swap");
-.bg-primary {
-  background-color: #1FBDAC;
-}
-
-.btn-primary {
-  background-color: #1FBDAC;
-  color: #FFFFFF;
-}
-
-.text-primary {
-  color: #1FBDAC;
-}
-
-.bg-secondary {
-  background-color: #42B4E0;
-}
-
-.btn-secondary {
-  background-color: #42B4E0;
-  color: #FFFFFF;
-}
-
-.text-secondary {
-  color: #42B4E0;
-}
-
-.bg-table {
-  background-color: #F3F3F3;
-}
-
-.btn-table {
-  background-color: #F3F3F3;
-  color: #FFFFFF;
-}
-
-.text-table {
-  color: #F3F3F3;
-}
-
-.bg-unsolved {
-  background-color: #FC4954;
-}
-
-.btn-unsolved {
-  background-color: #FC4954;
-  color: #FFFFFF;
-}
-
-.text-unsolved {
-  color: #FC4954;
-}
-
-.bg-solved {
-  background-color: #62E27B;
-}
-
-.btn-solved {
-  background-color: #62E27B;
-  color: #FFFFFF;
-}
-
-.text-solved {
-  color: #62E27B;
-}
-
-.bg-progress {
-  background-color: #FFC000;
-}
-
-.btn-progress {
-  background-color: #FFC000;
-  color: #FFFFFF;
-}
-
-.text-progress {
-  color: #FFC000;
-}
-
-.bg-dark {
-  background-color: #FFFFFF;
-}
-
-.btn-dark {
-  background-color: #FFFFFF;
-  color: #FFFFFF;
-}
-
-.text-dark {
-  color: #FFFFFF;
-}
-
-.bg-light {
-  background-color: #000000;
-}
-
-.btn-light {
-  background-color: #000000;
-  color: #FFFFFF;
-}
-
-.text-light {
-  color: #000000;
-}
-
-.bg-submit {
-  background-color: #F3F3F3;
-}
-
-.btn-submit {
-  background-color: #F3F3F3;
-  color: #FFFFFF;
-}
-
-.text-submit {
-  color: #F3F3F3;
-}
-
-.bg-text {
-  background-color: #A6A6A6;
-}
-
-.btn-text {
-  background-color: #A6A6A6;
-  color: #FFFFFF;
-}
-
-.text-text {
-  color: #A6A6A6;
-}
-
 .btn {
   border: none;
   border-radius: 8px;
@@ -209,6 +79,58 @@
   color: #000000;
 }
 
+.card {
+  background-color: #FFFFFF;
+  border: 1px solid #F3F3F3;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 16px;
+}
+
+.card-number {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #1FBDAC;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #A6A6A6;
+}
+
+.card-footer {
+  border-top: 1px solid #F3F3F3;
+  margin-top: 12px;
+  padding-top: 12px;
+  font-size: 12px;
+  color: #A6A6A6;
+}
+
+.card.solved {
+  border-left: 6px solid #62E27B;
+}
+
+.card.progress {
+  border-left: 6px solid #FFC000;
+}
+
+.card.danger {
+  border-left: 6px solid #FC4954;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
 .project-info {
   border: 2px solid #A6A6A6;
   border-radius: 8px;
@@ -223,6 +145,202 @@
 
 .project-info p:last-child {
   margin-bottom: 0;
+}
+
+.bg-primary {
+  background-color: #1FBDAC;
+}
+
+.text-primary {
+  color: #1FBDAC;
+}
+
+.bg-secondary {
+  background-color: #42B4E0;
+}
+
+.text-secondary {
+  color: #42B4E0;
+}
+
+.bg-table {
+  background-color: #F3F3F3;
+}
+
+.text-table {
+  color: #F3F3F3;
+}
+
+.bg-unsolved {
+  background-color: #FC4954;
+}
+
+.text-unsolved {
+  color: #FC4954;
+}
+
+.bg-solved {
+  background-color: #62E27B;
+}
+
+.text-solved {
+  color: #62E27B;
+}
+
+.bg-progress {
+  background-color: #FFC000;
+}
+
+.text-progress {
+  color: #FFC000;
+}
+
+.bg-dark {
+  background-color: #FFFFFF;
+}
+
+.text-dark {
+  color: #FFFFFF;
+}
+
+.bg-light {
+  background-color: #000000;
+}
+
+.text-light {
+  color: #000000;
+}
+
+.bg-submit {
+  background-color: #F3F3F3;
+}
+
+.text-submit {
+  color: #F3F3F3;
+}
+
+.bg-text {
+  background-color: #A6A6A6;
+}
+
+.text-text {
+  color: #A6A6A6;
+}
+
+.fw-light {
+  font-weight: 300;
+}
+
+.fw-normal {
+  font-weight: 400;
+}
+
+.fw-medium {
+  font-weight: 500;
+}
+
+.fw-semibold {
+  font-weight: 600;
+}
+
+.fw-bold {
+  font-weight: 700;
+}
+
+.fs-xs {
+  font-size: 12px;
+}
+
+.fs-sm {
+  font-size: 14px;
+}
+
+.fs-md {
+  font-size: 16px;
+}
+
+.fs-lg {
+  font-size: 20px;
+}
+
+.fs-xl {
+  font-size: 32px;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.m-1 {
+  margin: 8px;
+}
+
+.m-2 {
+  margin: 16px;
+}
+
+.m-3 {
+  margin: 24px;
+}
+
+.mt-1 {
+  margin-top: 8px;
+}
+
+.mt-2 {
+  margin-top: 16px;
+}
+
+.mb-1 {
+  margin-bottom: 8px;
+}
+
+.mb-2 {
+  margin-bottom: 16px;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.p-1 {
+  padding: 8px;
+}
+
+.p-2 {
+  padding: 16px;
+}
+
+.p-3 {
+  padding: 24px;
+}
+
+.border {
+  border: 1px solid #F3F3F3;
+}
+
+.border-primary {
+  border: 1px solid #1FBDAC;
+}
+
+.border-secondary {
+  border: 1px solid #42B4E0;
+}
+
+.border-success {
+  border: 1px solid #62E27B;
+}
+
+.border-danger {
+  border: 1px solid #FC4954;
+}
+
+.rounded {
+  border-radius: 8px;
+}
+
+.rounded-lg {
+  border-radius: 16px;
 }
 
 /*# sourceMappingURL=projecttrack.css.map */

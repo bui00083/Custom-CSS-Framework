@@ -1,0 +1,29 @@
+@use '../variables/' as variables;
+
+.border {
+  border: 1px solid variables.$gray;
+}
+
+.border-primary {
+  border: 1px solid variables.$teal;
+}
+
+.border-secondary {
+  border: 1px solid variables.$cyan;
+}
+
+.border-success {
+  border: 1px solid variables.$green;
+}
+
+.border-danger {
+  border: 1px solid variables.$red;
+}
+
+.rounded {
+  border-radius: 8px;
+}
+
+.rounded-lg {
+  border-radius: 16px;
+}

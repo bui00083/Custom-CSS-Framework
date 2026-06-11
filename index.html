@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/projecttrack.css">
-    <title>ProjectTrack CSS</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/projecttrack.css">
+  <title>ProjectTrack CSS</title>
 </head>
+
 <body>
 
   <main class="container">
@@ -14,16 +15,17 @@
 
     <!-- Buttons -->
     <section class="section">
+      <h2 class="section-title">Buttons</h2>
 
       <button class="btn btn-primary">Primary</button>
       <button class="btn btn-solved">Solved</button>
       <button class="btn btn-progress">Progress</button>
       <button class="btn btn-unsolved">Unsolved</button>
-
     </section>
 
     <!-- Status Cards -->
     <section class="section">
+      <h2 class="section-title">Status Cards</h2>
 
       <div class="card-container">
 
@@ -54,6 +56,18 @@
         <p><strong>Project Manager:</strong> Amy Smith</p>
         <p><strong>Completion Date:</strong> June 2026</p>
       </div>
+    </section>
+
+    <!-- Lists -->
+    <section class="section">
+      <h2 class="section-title">Project Checklist</h2>
+
+      <ul class="project-list">
+        <li>Set up Sass partials</li>
+        <li>Create reusable components</li>
+        <li>Add utility classes</li>
+        <li>Compile the CSS framework</li>
+      </ul>
     </section>
 
     <!-- Status Table -->
@@ -89,10 +103,10 @@
           </tr>
 
           <tr>
-           <td>Tables</td>
-           <td>Implemented</td>
-           <td>Testing</td>
-         </tr>
+            <td>Tables</td>
+            <td>Implemented</td>
+            <td>Testing</td>
+          </tr>
         </tbody>
       </table>
     </section>
@@ -104,14 +118,35 @@
       <form class="project-form">
 
         <label for="project">Project Name</label>
-        <input class="input-field" type="text" id="project">
+        <input class="input-field" type="text" id="project" placeholder="Enter project name">
 
         <label for="manager">Project Manager</label>
-        <input class="input-field" type="text" id="manager">
+        <input class="input-field" type="text" id="manager" placeholder="Enter manager name">
 
         <button class="btn submit-btn" type="submit">Submit</button>
 
       </form>
+    </section>
+
+    <!-- Utility Classes -->
+    <section class="section">
+      <h2 class="section-title">Utility Classes</h2>
+
+      <p class="text-primary fw-bold fs-lg mb-1">
+        This text uses color, font weight, font size, and margin utilities.
+      </p>
+
+      <p class="text-secondary fs-md mb-2">
+        This is another example of text utility classes.
+      </p>
+
+      <div class="bg-primary text-dark p-2 rounded mb-2">
+        This box uses background color, text color, padding, rounded corner, and margin utilities.
+      </div>
+
+      <div class="border border-primary p-2 rounded-lg">
+        This box uses border, padding, and rounded utility classes.
+      </div>
     </section>
 
   </main>

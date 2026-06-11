@@ -1,0 +1,54 @@
+@use 'sass:map';
+@use '../variables/' as variables;
+
+.card {
+  background-color: variables.$white;
+  border: 1px solid variables.$gray;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 16px;
+}
+
+.card-number {
+  font-size: map.get(variables.$font-size, 'xl');
+  font-weight: map.get(variables.$font-weight, 'bold');
+  margin-bottom: 8px;
+}
+
+.card-title {
+  font-size: map.get(variables.$font-size, 'lg');
+  font-weight: map.get(variables.$font-weight, 'bold');
+  margin-bottom: 8px;
+  color: variables.$teal;
+}
+
+.card-text {
+  font-size: map.get(variables.$font-size, 'sm');
+  color: variables.$dark-gray;
+}
+
+.card-footer {
+  border-top: 1px solid variables.$gray;
+  margin-top: 12px;
+  padding-top: 12px;
+  font-size: map.get(variables.$font-size, 'xs');
+  color: variables.$dark-gray;
+}
+
+.card.solved {
+  border-left: 6px solid variables.$green;
+}
+
+.card.progress {
+  border-left: 6px solid variables.$yellow;
+}
+
+.card.danger {
+  border-left: 6px solid variables.$red;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}

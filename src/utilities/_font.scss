@@ -1,0 +1,42 @@
+@use 'sass:map';
+@use '../variables/' as variables;
+
+.fw-light {
+  font-weight: map.get(variables.$font-weight, 'light');
+}
+
+.fw-normal {
+  font-weight: map.get(variables.$font-weight, 'reg');
+}
+
+.fw-medium {
+  font-weight: map.get(variables.$font-weight, 'med');
+}
+
+.fw-semibold {
+  font-weight: map.get(variables.$font-weight, 'semi-bold');
+}
+
+.fw-bold {
+  font-weight: map.get(variables.$font-weight, 'bold');
+}
+
+.fs-xs {
+  font-size: map.get(variables.$font-size, 'xs');
+}
+
+.fs-sm {
+  font-size: map.get(variables.$font-size, 'sm');
+}
+
+.fs-md {
+  font-size: map.get(variables.$font-size, 'md');
+}
+
+.fs-lg {
+  font-size: map.get(variables.$font-size, 'lg');
+}
+
+.fs-xl {
+  font-size: map.get(variables.$font-size, 'xl');
+}

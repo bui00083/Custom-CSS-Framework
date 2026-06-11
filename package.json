@@ -1,14 +1,22 @@
 {
-    "name": "projecttrack",
-    "version": "1.0.0",
-    "main": "index.js",
-    
-    "scripts": {
-        "dev": "sass --watch src/projecttrack.scss css/projecttrack.css"
-    },
-    
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "description": ""
+  "name": "projecttrack",
+  "version": "1.0.0",
+  "description": "A custom CSS framework for weekly project status dashboards and project management interfaces.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass --watch src/projecttrack.scss css/projecttrack.css",
+    "build": "sass src/projecttrack.scss css/projecttrack.css"
+  },
+  "keywords": [
+    "css",
+    "sass",
+    "framework",
+    "projecttrack",
+    "utilities"
+  ],
+  "author": "ProjectTrack CSS Team",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.89.0"
+  }
 }
