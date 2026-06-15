@@ -30,3 +30,36 @@ Run Sass watch:
 ```bash
 npm run dev
 ```
+
+## Usage
+
+Link the compiled CSS file:
+
+```html
+<link rel="stylesheet" href="css/projecttrack.css">
+```
+
+## Customization
+
+Colours and typography can be customized in:
+
+```text
+src/variables/_colors.scss
+src/variables/_typography.scss
+```
+
+
+## Framework Structure
+
+```text
+src/
+├── base/
+├── components/
+│   ├── _button.scss
+│   ├── _card.scss
+│   ├── _info.scss
+│   └── _table.scss
+├── fonts/
+├── utilities/
+└── variables/
+```
