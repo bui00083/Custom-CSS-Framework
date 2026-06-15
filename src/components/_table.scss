@@ -1,0 +1,38 @@
+@use 'sass:map';
+@use '../variables/' as vars;
+
+@mixin table{
+
+    width: 70%;
+    border-collapse: separate; 
+    border-spacing: 6px 6px; 
+
+    thead{
+        background-color: map.get(vars.$colors, 'primary');
+        font-family: map.get(vars.$fonts, 'body');
+        font-size: map.get(vars.$font-size, 'md');
+        font-weight: map.get(vars.$font-weight, 'semi-bold');
+        color: map.get(vars.$colors, 'dark');
+
+        th{
+            padding: 15px;
+            text-align: left;
+        }
+    }
+
+   tbody{
+
+        td{
+            background-color: map.get(vars.$colors,'table');
+            text-align: center;
+            padding: 15px;
+            color: map.get(vars.$colors, 'text');
+            
+        }
+   }
+
+}
+
+table {
+    @include table;
+}
