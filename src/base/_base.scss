@@ -1,7 +1,14 @@
+@use 'sass:map';
+@use '../components/' as components;
 @use '../variables/' as variables;
+@use '../fonts/' as fonts;
+@use '../utilities/' as utilities;
+
+
 
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: map.get(variables.$fonts, 'body');
+  font-weight: map.get(variables.$font-weight, 'reg');
   background-color: variables.$gray;
   color: variables.$black;
 }
@@ -35,4 +42,18 @@ body {
 
 .project-list li {
   margin-bottom: 8px;
+}
+
+h1{
+  font-size: map.get(variables.$font-size, 'xl');
+  font-weight: map.get(variables.$font-weight, 'bold');
+}
+
+h2{
+  font-size: map.get(variables.$font-size, 'lg');
+  font-weight: map.get(variables.$font-weight, 'med');
+}
+
+button{
+  @include components.button;
 }
